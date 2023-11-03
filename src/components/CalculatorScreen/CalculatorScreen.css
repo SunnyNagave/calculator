@@ -1,0 +1,22 @@
+.preRes{
+    border-top: 1px solid #0d6efd;
+    border-right: 1px solid #0d6efd;
+    border-left: 1px solid #0d6efd;
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+  
+.curRes{
+    border-bottom: 1px solid #0d6efd;
+    border-right: 1px solid #0d6efd;
+    border-left: 1px solid #0d6efd;
+    height: 30px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom:5px;
+}
+
+.text-field{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
