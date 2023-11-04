@@ -1,7 +1,9 @@
+/* for creating spaces between buttons */
 .padbottom{
     padding-bottom: 2px;
 }
-    
+
+/* making buttons fully occupy their spaces and !important to override bootstrap property */
 .stdsize{
     width: 100%;
     color:white !important;
