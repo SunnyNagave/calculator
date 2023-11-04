@@ -2,6 +2,7 @@ import './CalculatorScreen.css';
 import {useSelector} from "react-redux";
 
 export default function CalculatorScreen(){
+    // for importing the value of both the fields
     const currEquation = useSelector((state)=> state.calculatorReducer.currEquation);
     const prevEquation = useSelector((state)=> state.calculatorReducer.prevEquation);
     return(
