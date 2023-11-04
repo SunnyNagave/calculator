@@ -1,3 +1,4 @@
+/* for border of previous equation component */
 .preRes{
     border-top: 1px solid #0d6efd;
     border-right: 1px solid #0d6efd;
@@ -5,7 +6,8 @@
     height: 30px;
     border-radius: 5px 5px 0px 0px;
 }
-  
+
+/* for border of current equation component */
 .curRes{
     border-bottom: 1px solid #0d6efd;
     border-right: 1px solid #0d6efd;
@@ -15,6 +17,7 @@
     margin-bottom:5px;
 }
 
+/* making equation get aligned at the end of the field */
 .text-field{
     display: flex;
     flex-direction: column;
